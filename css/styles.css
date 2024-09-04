@@ -1,0 +1,185 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #d9ff00;
+    color: #000000;
+    padding: 1em 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+header .logo {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: black;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+header input {
+    padding: 0.5em;
+    border-radius: 3px;
+    border: none;
+    width: 300px;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.app-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around; /* Center items on smaller screens */
+}
+
+.app-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 300px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.app-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.app-item h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.app-item p {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #d9ff00;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #c4e608;
+}
+
+footer {
+    background-color: #d9ff00;
+    color: #000000;
+    text-align: center;
+    padding: 1em;
+}
+
+.app-detail {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.app-detail img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.app-info h1 {
+    font-size: 2em;
+}
+
+.app-info p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+/* Mobile Responsive Styles */
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    header input {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .app-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .app-item {
+        width: 90%; /* Make the app items take up more space on smaller screens */
+    }
+
+    .app-detail {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .app-detail img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .app-info h1 {
+        font-size: 1.5em;
+    }
+
+    .app-info p {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        padding: 10px;
+    }
+
+    .app-item {
+        padding: 10px;
+    }
+
+    .app-info h1 {
+        font-size: 1.2em;
+    }
+
+    .app-info p {
+        font-size: 0.9em;
+    }
+
+    .btn {
+        padding: 8px 15px;
+    }
+}
