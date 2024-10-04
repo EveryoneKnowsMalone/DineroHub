@@ -1,0 +1,42 @@
+/* App Details Page */
+* {
+    font-family: Oswald, calibri, Clash Grotesk;
+    background-color: white;
+}
+
+.app-details {
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.app-details img {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.app-details h2 {
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+.app-details p {
+    font-size: 16px;
+    color: #555;
+}
+
+.back-btn {
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.back-btn:hover {
+    background-color: #333;
+}

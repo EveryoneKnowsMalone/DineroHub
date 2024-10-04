@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinero - crypto checker</title>
+    <link rel="stylesheet" href="price-check.css">
+</head>
+<body>
+    <header>
+        <h1>Dinero Crypto Price Checker</h1>
+        <p>Get the latest prices of your favorite cryptocurrencies in both USD and NGN.</p>
+    </header>
+
+    <div class="crypto-container">
+        <label for="crypto-select">Select Cryptocurrency:</label>
+        <select id="crypto-select">
+            <option value="bitcoin">Bitcoin (BTC)</option>
+            <option value="ethereum">Ethereum (ETH)</option>
+            <option value="binancecoin">Binance Coin (BNB)</option>
+            <option value="dogs-2">Dogs (DOGS)</option>
+            <option value="catizen">Catizen (CATI)</option>
+            <option value="notcoin">Notcoin (NOT)</option>
+            <!-- Add more options as needed -->
+        </select>
+
+        <button id="check-price-btn">Check Price</button>
+
+        <div id="price-display">
+            <!-- Price will be displayed here -->
+        </div>
+    </div>
+
+    <a href="index.html" class="back-btn">Back to DineroHub</a>
+
+    <footer>
+        <p>&copy;2024 - XenonTechnologies</p>
+        <p>Powered by <a href="https://www.coingecko.com/en/api">CoinGecko API</a></p>
+    </footer>
+
+    <script src="price-check.js"></script>
+</body>
+</html>
