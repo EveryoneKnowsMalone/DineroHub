@@ -6,9 +6,27 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #fff;
-    color: #000;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
+
+.mode-toggle {
+    background-color: var(--button-background);
+    color: var(--button-text-color);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+
+    /* Dark mode variables */
+    body.dark-mode {
+        --background-color: #121212;
+        --text-color: #ffffff;
+        --button-background: #333333;
+        --button-text-color: #ffffff;
+      }    
 
 header {
     background-color: #000;
@@ -25,7 +43,6 @@ header h5 a {
 .search-bar {
     padding: 15px;
     text-align: center;
-    background-color: #f4f4f4;
 }
 
 .search-bar input {
@@ -40,7 +57,6 @@ header h5 a {
     display: flex;
     justify-content: space-around;
     padding: 10px;
-    background-color: #f4f4f4;
 }
 
 .category-btn {
@@ -65,7 +81,6 @@ header h5 a {
 }
 
 .app-card {
-    background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 10px;
     width: 60%;
@@ -96,7 +111,6 @@ header h5 a {
 .app-card p {
     font-size: 14px;
     margin-bottom: 10px;
-    color: #555;
 }
 
 .download-btn {
@@ -123,3 +137,11 @@ footer a {
     color: white;
     font-weight: bold;
 }
+
+/* Root level CSS variables for light mode */
+:root {
+    --background-color: #ffffff;
+    --text-color: #000000;
+    --button-background: #f1f1f1;
+    --button-text-color: #000000;
+  }

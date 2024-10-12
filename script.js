@@ -160,3 +160,30 @@ if (window.location.pathname.includes('app-details.html')) {
     // If on the index page
     displayApps();
 }
+
+// Get the toggle button element
+const toggleButton = document.getElementById('mode-toggle');
+
+// Check if dark mode is already enabled (via local storage)
+const isDarkMode = localStorage.getItem('darkMode') === 'enabled';
+
+// Apply dark mode if it's enabled
+if (isDarkMode) {
+  document.body.classList.add('dark-mode');
+  toggleButton.textContent = "Switch to Light Mode";
+}
+
+// Toggle function
+toggleButton.addEventListener('click', () => {
+  const isDarkModeEnabled = document.body.classList.toggle('dark-mode');
+
+  if (isDarkModeEnabled) {
+    // Save dark mode state
+    localStorage.setItem('darkMode', 'enabled');
+    toggleButton.textContent = "Switch to Light Mode";
+  } else {
+    // Remove dark mode state
+    localStorage.setItem('darkMode', 'disabled');
+    toggleButton.textContent = "Switch to Dark Mode";
+  }
+});
