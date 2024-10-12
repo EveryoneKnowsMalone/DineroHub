@@ -28,7 +28,7 @@ const apps = [
         description: "DRFT Party merge2 NFT cars game",
         details: "Merge Cars, Earn Points, DRFT Party is one of the most Anticipated Airdrops.",
         rating: 4.8,
-        downloadLink: "https://t.me/notpixel/app?startapp=f5997748340"
+        downloadLink: "https://t.me/drft_party_bot/game?startapp=5997748340"
     },
         {
         id: 1,
@@ -88,7 +88,7 @@ const apps = [
         description: "Find your Luck With Mnemonics",
         details: "Hack cypto wallets, take the coins and get all the airdrop rewards!, Play-to-earn wallet-hacking game (NOTE: This Game is Purely Fictional and Not Based On Real Life Events)",
         rating: 4.8,
-        downloadLink: "https://t.me/Tomarket_ai_bot/app?startapp=0000hcSv"
+        downloadLink: "https://t.me/mnmncs_bot/gameapp?startapp=1BrRg07J"
     },
     // Add more apps as needed
 ];
