@@ -11,16 +11,6 @@ const apps = [
         downloadLink: "https://t.me/blum/app?startapp=ref_pqoM2uVzo7"
     },
     {
-        id: 2,
-        name: "Hamster Kombat",
-        category: "free",
-        icon: "images/app2.png",
-        description: "Are You Ready CEO?",
-        details: "Hamster Kombat is a Telegram-based tap-to-earn game which has over 53 million subscribers on its Telegram channel. In addition, the game allows players to earn in-game coins by tapping their screens and completing various in-game missions.",
-        rating: 4.2,
-        downloadLink: "https://t.me/haMster_kombat_bot/start?startapp=kentId5997748340"
-    },
-    {
         id: 3,
         name: "TapSwap",
         category: "free",
@@ -69,6 +59,36 @@ const apps = [
         details: "Hack cypto wallets, take the coins and get all the airdrop rewards!, Play-to-earn wallet-hacking game (NOTE: This Game is Purely Fictional and Not Based On Real Life Events)",
         rating: 4.8,
         downloadLink: "https://t.me/Tomarket_ai_bot/app?startapp=0000hcSv"
+    },
+    {
+        id: 8,
+        name: "Major",
+        category: "trending",
+        icon: "images/app9.png",
+        description: "Become a Major of Telegram.",
+        details: "Mine Major Points, Convert to $MAJOR token, $MAJOR will release soon.",
+        rating: 4.8,
+        downloadLink: "https://t.me/major/start?startapp=5997748340"
+    },
+    {
+        id: 9,
+        name: "Not Pixel",
+        category: "trending",
+        icon: "images/app10.png",
+        description: "Paint pixels and get PX",
+        details: "From The Makers of Notcoin, Mine $PX and Make Money!",
+        rating: 4.8,
+        downloadLink: "https://t.me/notpixel/app?startapp=f5997748340"
+    },
+    {
+        id: 10,
+        name: "DRFT Party",
+        category: "new",
+        icon: "images/app11.png",
+        description: "DRFT Party merge2 NFT cars game",
+        details: "Merge Cars, Earn Points, DRFT Party is one of the most Anticipated Airdrops.",
+        rating: 4.8,
+        downloadLink: "https://t.me/notpixel/app?startapp=f5997748340"
     },
     // Add more apps as needed
 ];
